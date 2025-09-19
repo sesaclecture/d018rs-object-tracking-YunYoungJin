@@ -130,6 +130,7 @@ if __name__ == "__main__":
     # Load if config file is given
     if len(sys.argv) > 1:
         load_config(sys.argv[1])
+        CONFIG_FILE = sys.argv[1]
 
         # Update trackbar positions
         update_trackbar_positions()
